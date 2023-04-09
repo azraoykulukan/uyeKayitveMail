@@ -22,8 +22,8 @@ public class files {            //DOSYA İŞLEMLERİ
             file.createNewFile();
             FileWriter fileWriter = new FileWriter(file, false);        //DOSYAYA YAZMA İŞLEMİNİN OLACAĞI BİLDİRİLİR
             BufferedWriter bWriter = new BufferedWriter(fileWriter);            //DOSYAYA YAZMA İŞLEMİNİ SAĞLAYAN KISIM
-            bWriter.write("ELİT ÜYELER\n ");            //BAŞLIKLAR
-            bWriter.write("GENEL ÜYELER\n ");
+            bWriter.write("ELİT ÜYELER\n");            //BAŞLIKLAR
+            bWriter.write("GENEL ÜYELER\n");
             bWriter.close();
             elitindex = 0;
             genelindex = 1;
