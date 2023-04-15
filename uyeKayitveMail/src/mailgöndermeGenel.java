@@ -68,7 +68,7 @@ public class mailgöndermeGenel {
 
 
 
-        //Enter list of email recepients
+        
 
         System.out.println("Konu: ");
         String mailKonu = scanner.nextLine();
